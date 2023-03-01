@@ -39,3 +39,54 @@ function biggestNumber(a, b) {
 }
 console.log(biggestNumber(5, 3));
 console.log(biggestNumber('12', '5'));
+//5 - especificar tipo de argumento
+function mergeArrays(arr1, arr2) {
+    return arr1.concat(arr2);
+}
+console.log(mergeArrays([1, 2, 3], ["teste", "testando"]));
+//6 - opcionais
+function modernGreeting(name, greet) {
+    if (greet) {
+        return `Ola ${greet} ${name}, tudo bem ?`;
+    }
+    return `Ola ${name}, tudo bem ?`;
+}
+console.log(modernGreeting("Matheus"));
+console.log(modernGreeting("Matheus", "Dr."));
+//7 - parametro default
+function somaDefault(n, m = 10) {
+    return n + m;
+}
+console.log(somaDefault(10));
+console.log(somaDefault(7, 11));
+//8 - unknown
+function doSomething(x) {
+    if (Array.isArray(x)) {
+        console.log(x[0]);
+    }
+    else if (typeof x === "number") {
+        console.log("X é um numero");
+    }
+}
+doSomething([1, 2, 3]);
+doSomething(5);
+//9 - never
+function showErrorMessage(msg) {
+    throw new Error(msg);
+}
+//showErrorMessage("Algum erro")
+//10 - rest operator
+function sumAll(...n) {
+    return n.reduce((number, sum) => sum + number);
+}
+console.log(sumAll(1, 2, 3, 4, 5));
+console.log(sumAll(5, 348, 2348));
+// console.log(sumAll("teste"))
+//11 - destructuring com parametro
+function showProductDetails({ name, price }) {
+    return `O nome do produto é ${name} e ele custa R$ ${price}`;
+}
+const shirt = { name: "camisa", price: 49.99 };
+console.log(showProductDetails(shirt));
+// console.log(showProductDetails({name: "teste", age: 30}))
+console.log;
