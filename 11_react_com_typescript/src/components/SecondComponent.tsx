@@ -8,6 +8,11 @@ interface Props {
     tags: string[]
 }
 
+// enum
+enum Category {
+    JS = 'Javascript'
+}
+
 export const SecondComponent = ({ name, title, content, commentsQty, tags }: Props) => {
     return (
         <div>
