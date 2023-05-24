@@ -6,14 +6,18 @@ interface Props {
     content: string,
     commentsQty: number,
     tags: string[]
+
+    category: Category;
 }
 
 // enum
-enum Category {
-    JS = 'Javascript'
+export enum Category {
+    JS = 'Javascript',
+    TS = 'Typescript',
+    P = 'Python'
 }
 
-export const SecondComponent = ({ name, title, content, commentsQty, tags }: Props) => {
+export const SecondComponent = ({ name, title, content, commentsQty, tags, category }: Props) => {
     return (
         <div>
             <h5>My second component</h5>
@@ -26,6 +30,7 @@ export const SecondComponent = ({ name, title, content, commentsQty, tags }: Pro
                     <span>#{tag}</span>
                 ))}
             </div>
+            <h4>Category: {category}</h4>
         </div>
     );
 }
