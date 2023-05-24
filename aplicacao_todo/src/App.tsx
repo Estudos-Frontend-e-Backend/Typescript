@@ -11,12 +11,22 @@ import styles from "./App.module.css";
 
 // Interface
 import { ITask } from "./interfaces/Task";
+import { Modal } from "./components/Modal";
 
 export function App() {
   const [taskList, setTaskList] = useState<ITask[]>([]);
 
+  function deleteTask(id: number) {
+    setTaskList(
+      taskList.filter(task => {
+        return task.id !== id;
+      })
+    );
+  };
+
   return (
     <div>
+      <Modal children={<TaskForm btnText="Editar" taskList={[]}/>}/>
       <Header />
       <main className={styles.main}>
         <div>
@@ -29,7 +39,7 @@ export function App() {
         </div>
         <div>
           <h2>Suas Tarefas: </h2>
-          <TaskList taskList={taskList}/>
+          <TaskList taskList={taskList} handleDelete={deleteTask}/>
         </div>
       </main>
       <Footer />
