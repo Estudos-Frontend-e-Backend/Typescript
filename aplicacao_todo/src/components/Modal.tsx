@@ -8,10 +8,15 @@ interface Props {
 }
 
 export function Modal({ children }: Props) {
+
+    function closeModal(e:React.MouseEvent) {
+        const modal = document.querySelector("#modal")
+        modal!.classList.add("hide");
+    }
     return(
       
-        <div id="modal">
-            <div className={styles.fade}></div>
+        <div id="modal" className="hide">
+            <div className={styles.fade} onClick={closeModal}></div>
             <div className={styles.modal}>
                 <h2>Texto Modal</h2>
                 {children}
