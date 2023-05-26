@@ -1,3 +1,7 @@
 2023-05-26 10:12:27:1227 - [31merror[39m: [31mNão foi possivel conectar[39m
 2023-05-26 10:12:27:1227 - [31merror[39m: [31mErro: Error: querySrv ENOTFOUND _mongodb._tcp.cluster0.buxkin.mongodb.net[39m
 2023-05-26 10:14:33:1433 - [31merror[39m: [31mNão foi possivel conectar[39m
+2023-05-26 14:24:43:2443 - [31merror[39m: [31mErro no sistema Cast to ObjectId failed for value "6470e696b5fb43efb6d8f74" (type string) at path "_id" for model "Movie"[39m
+2023-05-26 14:31:10:3110 - [31merror[39m: [31mErro no sistema Cast to ObjectId failed for value "6470e696b5fb43efb6d8f74" (type string) at path "_id" for model "Movie"[39m
+2023-05-26 14:58:36:5836 - [31merror[39m: [31mErro no sistema movie.delete is not a function[39m
+2023-05-26 14:59:36:5936 - [31merror[39m: [31mErro no sistema movie.delete is not a function[39m

@@ -17,10 +17,14 @@ import router from './router'
 // Logger
 import Logger from '../config/logger';
 
+// Middleware
+import morganMiddleware from './middleware/morganMiddleware';
+
+app.use(morganMiddleware);
+
 app.use("/api/", router);
 
 const port = config.get<number>("port")
-
 
 app.listen(3000, async () => {
     await db();
