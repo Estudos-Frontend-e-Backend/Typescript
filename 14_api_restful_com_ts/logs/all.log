@@ -1,0 +1,23 @@
+2023-05-26 10:05:42:542 - [32minfo[39m: [32mAplicação está funcionando na porta: 3000[39m
+2023-05-26 10:10:59:1059 - [32minfo[39m: [32mAplicação está funcionando na porta: 3000[39m
+2023-05-26 10:11:02:112 - [32minfo[39m: [32mAplicação está funcionando na porta: 3000[39m
+2023-05-26 10:11:07:117 - [32minfo[39m: [32mConectou ao banco de dados[39m
+2023-05-26 10:11:07:117 - [32minfo[39m: [32mAplicação está funcionando na porta: 3000[39m
+2023-05-26 10:11:31:1131 - [32minfo[39m: [32mConectou ao banco de dados[39m
+2023-05-26 10:11:31:1131 - [32minfo[39m: [32mAplicação está funcionando na porta: 3000[39m
+2023-05-26 10:11:43:1143 - [32minfo[39m: [32mConectou ao banco de dados[39m
+2023-05-26 10:11:43:1143 - [32minfo[39m: [32mAplicação está funcionando na porta: 3000[39m
+2023-05-26 10:11:46:1146 - [32minfo[39m: [32mConectou ao banco de dados[39m
+2023-05-26 10:11:46:1146 - [32minfo[39m: [32mAplicação está funcionando na porta: 3000[39m
+2023-05-26 10:12:27:1227 - [31merror[39m: [31mNão foi possivel conectar[39m
+2023-05-26 10:12:27:1227 - [31merror[39m: [31mErro: Error: querySrv ENOTFOUND _mongodb._tcp.cluster0.buxkin.mongodb.net[39m
+2023-05-26 10:12:27:1227 - [32minfo[39m: [32mAplicação está funcionando na porta: 3000[39m
+2023-05-26 10:12:33:1233 - [32minfo[39m: [32mConectou ao banco de dados[39m
+2023-05-26 10:12:33:1233 - [32minfo[39m: [32mAplicação está funcionando na porta: 3000[39m
+2023-05-26 10:14:13:1413 - [32minfo[39m: [32mConectou ao banco de dados[39m
+2023-05-26 10:14:13:1413 - [32minfo[39m: [32mAplicação está funcionando na porta: 3000[39m
+2023-05-26 10:14:16:1416 - [32minfo[39m: [32mConectou ao banco de dados[39m
+2023-05-26 10:14:16:1416 - [32minfo[39m: [32mAplicação está funcionando na porta: 3000[39m
+2023-05-26 10:14:33:1433 - [31merror[39m: [31mNão foi possivel conectar[39m
+2023-05-26 10:14:43:1443 - [32minfo[39m: [32mConectou ao banco de dados[39m
+2023-05-26 10:14:43:1443 - [32minfo[39m: [32mAplicação está funcionando na porta: 3000[39m
