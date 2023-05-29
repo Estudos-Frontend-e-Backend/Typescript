@@ -2,7 +2,7 @@ import mongoose from "mongoose";
 import config from "config"
 import Logger from '../config/logger';
 
-async function connection() {
+async function connect() {
     
     const dbUri = config.get<string>("dbUri");
 
@@ -16,4 +16,4 @@ async function connection() {
     }
 }
 
-export default connection;
+export default connect;
